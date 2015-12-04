@@ -1,0 +1,9 @@
+zuul:
+  ignoredServices: '*'
+  routes:
+    users:
+      path: /webapp/**
+      serviceId: server-web-ui
+maintenance:
+  global:
+    enabled: true
