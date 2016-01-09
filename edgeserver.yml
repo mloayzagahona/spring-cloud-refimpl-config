@@ -6,4 +6,4 @@ zuul:
       serviceId: server-web-ui
 maintenance:
   global:
-    enabled: true
+    enabled: false
