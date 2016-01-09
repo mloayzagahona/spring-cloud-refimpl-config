@@ -10,4 +10,7 @@ maintenance:
 eureka:
   client:
     fetchRegistry: true
+logging:
+  level:
+    com.netflix.client: DEBUG
 
