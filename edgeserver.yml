@@ -7,3 +7,7 @@ zuul:
 maintenance:
   global:
     enabled: false
+eureka:
+  client:
+    fetchRegistry: true
+
