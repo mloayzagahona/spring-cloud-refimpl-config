@@ -12,12 +12,6 @@ eureka:
     fetchRegistry: true
 logging:
   level:
-    com:
-      netflix:
-        client: DEBUG
-    org:
-      springframework:
-        cloud:
-	  netflix:
-	    zuul: DEBUG
+    com.netflix.client: DEBUG
+    org.springframework.cloud.netflix: DEBUG
 
