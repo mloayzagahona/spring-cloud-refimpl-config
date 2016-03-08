@@ -9,7 +9,7 @@ zuul:
       serviceId: webapp
 maintenance:
   global:
-    enabled: false
+    enabled: true
 eureka:
   client:
     fetchRegistry: true
@@ -17,4 +17,3 @@ logging:
   level:
     com.netflix.client: DEBUG
     org.springframework.cloud.netflix: DEBUG
-
